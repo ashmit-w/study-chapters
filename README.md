@@ -31,7 +31,7 @@ Sets/Relations/Functions, Complex Numbers, Matrices/Determinants, Permutations/C
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/study-chapters.git
+   git clone https://github.com/ashmit-w/study-chapters.git
    cd study-chapters
    ```
 
@@ -62,7 +62,7 @@ Sets/Relations/Functions, Complex Numbers, Matrices/Determinants, Permutations/C
 
 ## 🌐 Live Demo
 
-Visit: [https://YOUR_USERNAME.github.io/study-chapters](https://YOUR_USERNAME.github.io/study-chapters)
+Visit: [https://ashmit-w.github.io/study-chapters](https://ashmit-w.github.io/study-chapters)
 
 ## 📄 License
 
