@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 📚 Study Chapters Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive web application to help students organize and track their study progress across different subjects and chapters.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Multi-Subject Management**: Organize chapters by subject (Physics, Chemistry, Mathematics)
+- **Chapter Rating System**: Rate chapters from 1-5 stars to track understanding
+- **Progress Tracking**: Visual feedback on completed and pending chapters
+- **Sorting**: Sort chapters by rating to prioritize study focus
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Add Custom Content**: Add new subjects and chapters as needed
 
-### `npm start`
+## 🎯 Current Subjects & Chapters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Physics (20 chapters)
+Units and Measurements, Kinematics, Laws of Motion, Work/Energy/Power, Rotational Motion, Gravitation, Properties of Solids and Liquids, Oscillations and Waves, Thermodynamics, Kinetic Theory of Gases, Electrostatics, Current Electricity, Magnetic Effects, Electromagnetic Induction, Electromagnetic Waves, Optics, Dual Nature of Matter, Atoms and Nuclei, Electronic Devices, Communication Systems
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Chemistry (27 chapters)
+Basic Concepts, Atomic Structure, Chemical Bonding, States of Matter, Thermodynamics, Equilibrium, Redox Reactions, Electrochemistry, Chemical Kinetics, Surface Chemistry, Periodic Properties, Hydrogen, s/p/d/f Block Elements, Coordination Compounds, Environmental Chemistry, Organic Chemistry Principles, Hydrocarbons, Haloalkanes, Alcohols/Phenols/Ethers, Aldehydes/Ketones/Carboxylic Acids, Amines, Biomolecules, Polymers, Chemistry in Everyday Life
 
-### `npm test`
+### Mathematics (16 chapters)
+Sets/Relations/Functions, Complex Numbers, Matrices/Determinants, Permutations/Combinations, Mathematical Induction, Binomial Theorem, Sequences/Series, Limits/Continuity/Differentiability, Integral Calculus, Differential Equations, Coordinate Geometry, 3D Geometry, Vector Algebra, Statistics/Probability, Trigonometry, Mathematical Reasoning
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/study-chapters.git
+   cd study-chapters
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Built With
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React** - Frontend framework
+- **CSS3** - Styling with modern features
+- **GitHub Pages** - Hosting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📱 Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Rate Chapters**: Click on the stars to rate your understanding of each chapter
+2. **Track Progress**: Monitor which chapters need more attention
+3. **Sort by Rating**: Use the sort button to prioritize chapters by rating
+4. **Add Content**: Create new subjects or add custom chapters
 
-## Learn More
+## 🌐 Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Visit: [https://YOUR_USERNAME.github.io/study-chapters](https://YOUR_USERNAME.github.io/study-chapters)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄 License
 
-### Code Splitting
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Happy Studying! 📖✨**
