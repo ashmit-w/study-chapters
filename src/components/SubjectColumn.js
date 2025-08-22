@@ -33,9 +33,31 @@ const SubjectColumn = ({ title, chapters, onAddChapter, onUpdateRating, onSort }
     return stars;
   };
 
+  // Calculate progress
+  const ratedChapters = chapters.filter(chapter => chapter.rating > 0).length;
+  const progressPercentage = chapters.length > 0 ? (ratedChapters / chapters.length) * 100 : 0;
+
   return (
     <div className="subject-column">
       <h2>{title}</h2>
+      
+      {/* Progress Bar */}
+      <div className="progress-section">
+        <div className="progress-info">
+          <span className="progress-text">
+            {ratedChapters} of {chapters.length} chapters rated
+          </span>
+          <span className="progress-percentage">
+            {Math.round(progressPercentage)}%
+          </span>
+        </div>
+        <div className="progress-bar">
+          <div 
+            className="progress-fill" 
+            style={{ width: `${progressPercentage}%` }}
+          ></div>
+        </div>
+      </div>
       
       <div className="chapters-list">
         {chapters.length === 0 ? (
