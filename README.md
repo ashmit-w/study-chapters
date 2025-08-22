@@ -1,6 +1,8 @@
-# 📚 Study Chapters Manager
+# 📚 Devansh Arya IIT
 
 A modern, interactive web application to help students organize and track their study progress across different subjects and chapters.
+
+*Made with love by Ashmit bhaiya* ❤️
 
 ## ✨ Features
 

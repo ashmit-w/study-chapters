@@ -154,7 +154,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Study Chapters Manager</h1>
+        <h1>Devansh Arya IIT</h1>
+        <p className="credit-line">made with love by Ashmit bhaiya</p>
         <p>Organize and rate your study chapters by subject</p>
         <button onClick={addNewSubject} className="add-subject-btn">
           + Add New Subject
